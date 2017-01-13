@@ -3,7 +3,7 @@ Unity Certification route
 
 Grupo conformado por:
 
-Adrian
+Adrian Vargas GG ez
 Carlos
 Cesar
 Sergio
