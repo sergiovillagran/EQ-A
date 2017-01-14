@@ -9,15 +9,15 @@ public class Game : MonoBehaviour {
 	// Use this for initialization
 
 	void Awake () {
-		splash = Instantiate(Resources.Load("splash")) as GameObject;
+		splash = Instantiate(Resources.Load("Splash")) as GameObject;
 		splash.transform.SetParent (gameObject.transform); 
 		splash.SetActive (false);
 
-		menu = Instantiate(Resources.Load("menu")) as GameObject;
+		menu = Instantiate(Resources.Load("MainMenu")) as GameObject;
 		menu.transform.SetParent (gameObject.transform);
-		menu.SetActive (false);
+		//menu.SetActive (false);
 
-		scenario = Instantiate(Resources.Load("scenario")) as GameObject;
+		scenario = Instantiate(Resources.Load("Scenario")) as GameObject;
 		scenario.transform.SetParent (gameObject.transform);
 		scenario.SetActive (false);
 	}
