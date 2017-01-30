@@ -14,18 +14,18 @@ public class MetaGameController : GameComponent {
 
     public MetaGameController(GameObject menu, GameObject game)
     {
-        this.menu = menu;
-        this.game = game; 
-        playButton = menu.transform.FindChild("PlayButton").GetComponent<Button>();
-        settingsButton = menu.transform.FindChild("SettingsButton").GetComponent<Button>();
-        exitButton = menu.transform.FindChild("ExitButton").GetComponent<Button>();
+        this.menu       = menu;
+        this.game       = game; 
+        playButton      = menu.transform.FindChild("PlayButton").GetComponent<Button>();
+        settingsButton  = menu.transform.FindChild("SettingsButton").GetComponent<Button>();
+        exitButton      = menu.transform.FindChild("ExitButton").GetComponent<Button>();
     }
 
     public MetaGameController(GameObject playButton, GameObject settingsButton, GameObject exitButton)
     {
-        this.playButton = playButton.GetComponent<Button>();
+        this.playButton     = playButton.GetComponent<Button>();
         this.settingsButton = settingsButton.GetComponent<Button>();
-        this.exitButton = exitButton.GetComponent<Button>();
+        this.exitButton     = exitButton.GetComponent<Button>();
     }
 
     public void awake()

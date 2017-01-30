@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -7,9 +8,11 @@ public class Game : MonoBehaviour {
     public GameObject HUD;
     public GameObject[] gameLevels;
 
-    public const string DEFAULT_GAME_SCENE = "playGame";
+    public const int DEFAULT_GAME_SCENE_INDEX = 0;
+
 
     public static string GAME_STATUS;
+    public static bool isPaused = false;
     public static MetaGameController menuController;
     private static List<GameComponent> controllers;
 
@@ -41,9 +44,26 @@ public class Game : MonoBehaviour {
 
     public void chargeGame (GameObject game = null)
     {
-        HUD = Instantiate(HUD);
-        HUD.transform.SetParent(gameObject.transform);
-        GAME_STATUS = "IN_GAME";
+        try
+        {
+            gameLevels[DEFAULT_GAME_SCENE_INDEX] = Instantiate(gameLevels[DEFAULT_GAME_SCENE_INDEX]);
+            gameLevels[DEFAULT_GAME_SCENE_INDEX].transform.SetParent(gameObject.transform);
+
+            HUD = Instantiate(HUD);
+            HUD.transform.SetParent(gameObject.transform);
+            controllers.Add(new HudController(HUD, gameObject));
+
+            if (GAME_STATUS != "IN_GAME")
+            {
+                menuController = null;
+                GAME_STATUS = "IN_GAME";
+                sendMessage("awake");
+            }
+        }
+        catch (Exception e)
+        {
+            Debug.Log("Message: " + e.Message);
+        }
     }
 
     private void sendMessage(string message)
@@ -54,7 +74,8 @@ public class Game : MonoBehaviour {
                 {
                     foreach (GameComponent go in controllers)
                     {
-                        go.awake();
+                        if(go != null)
+                            go.awake();
                     }
                     break;
                 }
@@ -62,7 +83,8 @@ public class Game : MonoBehaviour {
                 {
                     foreach (GameComponent go in controllers)
                     {
-                        go.start();
+                        if (go != null)
+                            go.start();
                     }
                     break;
                 }
@@ -70,7 +92,8 @@ public class Game : MonoBehaviour {
                 {
                     foreach (GameComponent go in controllers)
                     {
-                        go.destroy();
+                        if (go != null)
+                            go.destroy();
                     }
                     break;
                 }
@@ -78,7 +101,8 @@ public class Game : MonoBehaviour {
                 {
                     foreach (GameComponent go in controllers)
                     {
-                        go.update();
+                        if (go != null)
+                            go.update();
                     }
                     break;
                 }

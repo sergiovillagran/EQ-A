@@ -206,8 +206,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   menu: {fileID: 1775866157944430, guid: 4b38b7c01ce2c3c4cb188d35b735c1c7, type: 2}
-  gameLevels: []
   HUD: {fileID: 1939431392323506, guid: 07d2701751ebfba41b81d02e3bf7b910, type: 2}
+  gameLevels:
+  - {fileID: 1543952231045176, guid: b4fa5f46adb6fa54db55f0b3e3c76fd1, type: 2}
 --- !u!4 &1727582330
 Transform:
   m_ObjectHideFlags: 0
