@@ -1,0 +1,2030 @@
+fileFormatVersion: 2
+guid: 0eb4cd5f400cee745ac45f94fe19bfc9
+timeCreated: 1485791186
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: PersonajeSprite Final_0
+    21300002: PersonajeSprite Final_1
+    21300004: PersonajeSprite Final_2
+    21300006: PersonajeSprite Final_3
+    21300008: PersonajeSprite Final_4
+    21300010: PersonajeSprite Final_5
+    21300012: PersonajeSprite Final_6
+    21300014: PersonajeSprite Final_7
+    21300016: PersonajeSprite Final_8
+    21300018: PersonajeSprite Final_9
+    21300020: PersonajeSprite Final_10
+    21300022: PersonajeSprite Final_11
+    21300024: PersonajeSprite Final_12
+    21300026: PersonajeSprite Final_13
+    21300028: PersonajeSprite Final_14
+    21300030: PersonajeSprite Final_15
+    21300032: PersonajeSprite Final_16
+    21300034: PersonajeSprite Final_17
+    21300036: PersonajeSprite Final_18
+    21300038: PersonajeSprite Final_19
+    21300040: PersonajeSprite Final_20
+    21300042: PersonajeSprite Final_21
+    21300044: PersonajeSprite Final_22
+    21300046: PersonajeSprite Final_23
+    21300048: PersonajeSprite Final_24
+    21300050: PersonajeSprite Final_25
+    21300052: PersonajeSprite Final_26
+    21300054: PersonajeSprite Final_27
+    21300056: PersonajeSprite Final_28
+    21300058: PersonajeSprite Final_29
+    21300060: PersonajeSprite Final_30
+    21300062: PersonajeSprite Final_31
+    21300064: PersonajeSprite Final_32
+    21300066: PersonajeSprite Final_33
+    21300068: PersonajeSprite Final_34
+    21300070: PersonajeSprite Final_35
+    21300072: PersonajeSprite Final_36
+    21300074: PersonajeSprite Final_37
+    21300076: PersonajeSprite Final_38
+    21300078: PersonajeSprite Final_39
+    21300080: PersonajeSprite Final_40
+    21300082: PersonajeSprite Final_41
+    21300084: PersonajeSprite Final_42
+    21300086: PersonajeSprite Final_43
+    21300088: PersonajeSprite Final_44
+    21300090: PersonajeSprite Final_45
+    21300092: PersonajeSprite Final_46
+    21300094: PersonajeSprite Final_47
+    21300096: PersonajeSprite Final_48
+    21300098: PersonajeSprite Final_49
+    21300100: PersonajeSprite Final_50
+    21300102: PersonajeSprite Final_51
+    21300104: PersonajeSprite Final_52
+    21300106: PersonajeSprite Final_53
+    21300108: PersonajeSprite Final_54
+    21300110: PersonajeSprite Final_55
+    21300112: PersonajeSprite Final_56
+    21300114: PersonajeSprite Final_57
+    21300116: PersonajeSprite Final_58
+    21300118: PersonajeSprite Final_59
+    21300120: PersonajeSprite Final_60
+    21300122: PersonajeSprite Final_61
+    21300124: PersonajeSprite Final_62
+    21300126: PersonajeSprite Final_63
+    21300128: PersonajeSprite Final_64
+    21300130: PersonajeSprite Final_65
+    21300132: PersonajeSprite Final_66
+    21300134: PersonajeSprite Final_67
+    21300136: PersonajeSprite Final_68
+    21300138: PersonajeSprite Final_69
+    21300140: PersonajeSprite Final_70
+    21300142: PersonajeSprite Final_71
+    21300144: PersonajeSprite Final_72
+    21300146: PersonajeSprite Final_73
+    21300148: PersonajeSprite Final_74
+    21300150: PersonajeSprite Final_75
+    21300152: PersonajeSprite Final_76
+    21300154: PersonajeSprite Final_77
+    21300156: PersonajeSprite Final_78
+    21300158: PersonajeSprite Final_79
+    21300160: PersonajeSprite Final_80
+    21300162: PersonajeSprite Final_81
+    21300164: PersonajeSprite Final_82
+    21300166: PersonajeSprite Final_83
+    21300168: PersonajeSprite Final_84
+    21300170: PersonajeSprite Final_85
+    21300172: PersonajeSprite Final_86
+    21300174: PersonajeSprite Final_87
+    21300176: PersonajeSprite Final_88
+    21300178: PersonajeSprite Final_89
+    21300180: PersonajeSprite Final_90
+    21300182: PersonajeSprite Final_91
+    21300184: PersonajeSprite Final_92
+    21300186: PersonajeSprite Final_93
+    21300188: PersonajeSprite Final_94
+    21300190: PersonajeSprite Final_95
+    21300192: PersonajeSprite Final_96
+    21300194: PersonajeSprite Final_97
+    21300196: PersonajeSprite Final_98
+    21300198: PersonajeSprite Final_99
+    21300200: PersonajeSprite Final_100
+    21300202: PersonajeSprite Final_101
+    21300204: PersonajeSprite Final_102
+    21300206: PersonajeSprite Final_103
+    21300208: PersonajeSprite Final_104
+    21300210: PersonajeSprite Final_105
+    21300212: PersonajeSprite Final_106
+    21300214: PersonajeSprite Final_107
+    21300216: PersonajeSprite Final_108
+    21300218: PersonajeSprite Final_109
+    21300220: PersonajeSprite Final_110
+    21300222: PersonajeSprite Final_111
+    21300224: PersonajeSprite Final_112
+    21300226: PersonajeSprite Final_113
+    21300228: PersonajeSprite Final_114
+    21300230: PersonajeSprite Final_115
+    21300232: PersonajeSprite Final_116
+    21300234: PersonajeSprite Final_117
+    21300236: PersonajeSprite Final_118
+    21300238: PersonajeSprite Final_119
+    21300240: PersonajeSprite Final_120
+    21300242: PersonajeSprite Final_121
+    21300244: PersonajeSprite Final_122
+    21300246: PersonajeSprite Final_123
+    21300248: PersonajeSprite Final_124
+    21300250: PersonajeSprite Final_125
+    21300252: PersonajeSprite Final_126
+    21300254: PersonajeSprite Final_127
+    21300256: PersonajeSprite Final_128
+    21300258: PersonajeSprite Final_129
+    21300260: PersonajeSprite Final_130
+    21300262: PersonajeSprite Final_131
+    21300264: PersonajeSprite Final_132
+    21300266: PersonajeSprite Final_133
+    21300268: PersonajeSprite Final_134
+    21300270: PersonajeSprite Final_135
+    21300272: PersonajeSprite Final_136
+    21300274: PersonajeSprite Final_137
+    21300276: PersonajeSprite Final_138
+    21300278: PersonajeSprite Final_139
+    21300280: PersonajeSprite Final_140
+    21300282: PersonajeSprite Final_141
+    21300284: PersonajeSprite Final_142
+    21300286: PersonajeSprite Final_143
+    21300288: PersonajeSprite Final_144
+    21300290: PersonajeSprite Final_145
+    21300292: PersonajeSprite Final_146
+    21300294: PersonajeSprite Final_147
+    21300296: PersonajeSprite Final_148
+    21300298: PersonajeSprite Final_149
+    21300300: PersonajeSprite Final_150
+    21300302: PersonajeSprite Final_151
+    21300304: PersonajeSprite Final_152
+    21300306: PersonajeSprite Final_153
+    21300308: PersonajeSprite Final_154
+    21300310: PersonajeSprite Final_155
+    21300312: PersonajeSprite Final_156
+    21300314: PersonajeSprite Final_157
+    21300316: PersonajeSprite Final_158
+    21300318: PersonajeSprite Final_159
+    21300320: PersonajeSprite Final_160
+    21300322: PersonajeSprite Final_161
+    21300324: PersonajeSprite Final_162
+    21300326: PersonajeSprite Final_163
+    21300328: PersonajeSprite Final_164
+    21300330: PersonajeSprite Final_165
+    21300332: PersonajeSprite Final_166
+    21300334: PersonajeSprite Final_167
+    21300336: PersonajeSprite Final_168
+    21300338: PersonajeSprite Final_169
+    21300340: PersonajeSprite Final_170
+    21300342: PersonajeSprite Final_171
+    21300344: PersonajeSprite Final_172
+    21300346: PersonajeSprite Final_173
+    21300348: PersonajeSprite Final_174
+    21300350: PersonajeSprite Final_175
+    21300352: PersonajeSprite Final_176
+    21300354: PersonajeSprite Final_177
+    21300356: PersonajeSprite Final_178
+    21300358: PersonajeSprite Final_179
+    21300360: PersonajeSprite Final_180
+    21300362: PersonajeSprite Final_181
+    21300364: PersonajeSprite Final_182
+    21300366: PersonajeSprite Final_183
+    21300368: PersonajeSprite Final_184
+    21300370: PersonajeSprite Final_185
+    21300372: PersonajeSprite Final_186
+    21300374: PersonajeSprite Final_187
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 4096
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: iPhone
+    maxTextureSize: 4096
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Android
+    maxTextureSize: 4096
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: WebGL
+    maxTextureSize: 4096
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PersonajeSprite Final_0
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 3784
+        width: 352
+        height: 303
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PersonajeSprite Final_1
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 3800
+        width: 345
+        height: 287
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PersonajeSprite Final_2
+      rect:
+        serializedVersion: 2
+        x: 713
+        y: 3796
+        width: 347
+        height: 292
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PersonajeSprite Final_3
+      rect:
+        serializedVersion: 2
+        x: 1064
+        y: 3788
+        width: 348
+        height: 300
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PersonajeSprite Final_4
+      rect:
+        serializedVersion: 2
+        x: 1423
+        y: 3795
+        width: 330
+        height: 293
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PersonajeSprite Final_5
+      rect:
+        serializedVersion: 2
+        x: 1768
+        y: 3788
+        width: 325
+        height: 295
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PersonajeSprite Final_6
+      rect:
+        serializedVersion: 2
+        x: 2100
+        y: 3788
+        width: 317
+        height: 296
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PersonajeSprite Final_7
+      rect:
+        serializedVersion: 2
+        x: 2451
+        y: 3792
+        width: 309
+        height: 296
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PersonajeSprite Final_8
+      rect:
+        serializedVersion: 2
+        x: 2825
+        y: 3792
+        width: 298
+        height: 295
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PersonajeSprite Final_9
+      rect:
+        serializedVersion: 2
+        x: 3182
+        y: 3793
+        width: 283
+        height: 292
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PersonajeSprite Final_10
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 3485
+        width: 267
+        height: 289
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PersonajeSprite Final_11
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 3484
+        width: 233
+        height: 300
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PersonajeSprite Final_12
+      rect:
+        serializedVersion: 2
+        x: 723
+        y: 3483
+        width: 209
+        height: 300
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PersonajeSprite Final_13
+      rect:
+        serializedVersion: 2
+        x: 1084
+        y: 3483
+        width: 201
+        height: 298
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PersonajeSprite Final_14
+      rect:
+        serializedVersion: 2
+        x: 1436
+        y: 3483
+        width: 203
+        height: 294
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PersonajeSprite Final_15
+      rect:
+        serializedVersion: 2
+        x: 1787
+        y: 3479
+        width: 203
+        height: 289
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PersonajeSprite Final_16
+      rect:
+        serializedVersion: 2
+        x: 2136
+        y: 3479
+        width: 208
+        height: 287
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PersonajeSprite Final_17
+      rect:
+        serializedVersion: 2
+        x: 2488
+        y: 3479
+        width: 221
+        height: 281
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PersonajeSprite Final_18
+      rect:
+        serializedVersion: 2
+        x: 2840
+        y: 3479
+        width: 240
+        height: 276
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PersonajeSprite Final_19
+      rect:
+        serializedVersion: 2
+        x: 3195
+        y: 3479
+        width: 261
+        height: 276
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PersonajeSprite Final_20
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 3187
+        width: 271
+        height: 278
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PersonajeSprite Final_21
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 3187
+        width: 261
+        height: 277
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PersonajeSprite Final_22
+      rect:
+        serializedVersion: 2
+        x: 728
+        y: 3187
+        width: 240
+        height: 277
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PersonajeSprite Final_23
+      rect:
+        serializedVersion: 2
+        x: 1089
+        y: 3183
+        width: 221
+        height: 279
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PersonajeSprite Final_24
+      rect:
+        serializedVersion: 2
+        x: 1448
+        y: 3178
+        width: 208
+        height: 284
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PersonajeSprite Final_25
+      rect:
+        serializedVersion: 2
+        x: 1777
+        y: 3176
+        width: 203
+        height: 288
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PersonajeSprite Final_26
+      rect:
+        serializedVersion: 2
+        x: 2118
+        y: 3167
+        width: 203
+        height: 297
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PersonajeSprite Final_27
+      rect:
+        serializedVersion: 2
+        x: 2480
+        y: 3169
+        width: 200
+        height: 295
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PersonajeSprite Final_28
+      rect:
+        serializedVersion: 2
+        x: 2838
+        y: 3167
+        width: 210
+        height: 297
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PersonajeSprite Final_29
+      rect:
+        serializedVersion: 2
+        x: 3188
+        y: 3166
+        width: 236
+        height: 298
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PersonajeSprite Final_30
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 2872
+        width: 273
+        height: 297
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PersonajeSprite Final_31
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 2875
+        width: 287
+        height: 294
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PersonajeSprite Final_32
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 2876
+        width: 303
+        height: 293
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PersonajeSprite Final_33
+      rect:
+        serializedVersion: 2
+        x: 1047
+        y: 2876
+        width: 314
+        height: 293
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PersonajeSprite Final_34
+      rect:
+        serializedVersion: 2
+        x: 1396
+        y: 2873
+        width: 324
+        height: 296
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PersonajeSprite Final_35
+      rect:
+        serializedVersion: 2
+        x: 1737
+        y: 2873
+        width: 332
+        height: 296
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PersonajeSprite Final_36
+      rect:
+        serializedVersion: 2
+        x: 2084
+        y: 2874
+        width: 340
+        height: 287
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PersonajeSprite Final_37
+      rect:
+        serializedVersion: 2
+        x: 2451
+        y: 2845
+        width: 341
+        height: 291
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PersonajeSprite Final_38
+      rect:
+        serializedVersion: 2
+        x: 2818
+        y: 2845
+        width: 338
+        height: 283
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PersonajeSprite Final_39
+      rect:
+        serializedVersion: 2
+        x: 3186
+        y: 2845
+        width: 336
+        height: 280
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PersonajeSprite Final_40
+      rect:
+        serializedVersion: 2
+        x: 3551
+        y: 2845
+        width: 345
+        height: 289
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PersonajeSprite Final_41
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 2504
+        width: 250
+        height: 328
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PersonajeSprite Final_42
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 2497
+        width: 252
+        height: 331
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PersonajeSprite Final_43
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 2491
+        width: 257
+        height: 333
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PersonajeSprite Final_44
+      rect:
+        serializedVersion: 2
+        x: 813
+        y: 2487
+        width: 258
+        height: 333
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PersonajeSprite Final_45
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 2485
+        width: 252
+        height: 336
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PersonajeSprite Final_46
+      rect:
+        serializedVersion: 2
+        x: 1336
+        y: 2481
+        width: 241
+        height: 341
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PersonajeSprite Final_47
+      rect:
+        serializedVersion: 2
+        x: 1584
+        y: 2479
+        width: 228
+        height: 343
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PersonajeSprite Final_48
+      rect:
+        serializedVersion: 2
+        x: 1831
+        y: 2476
+        width: 212
+        height: 348
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PersonajeSprite Final_49
+      rect:
+        serializedVersion: 2
+        x: 2056
+        y: 2475
+        width: 196
+        height: 346
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PersonajeSprite Final_50
+      rect:
+        serializedVersion: 2
+        x: 2272
+        y: 2475
+        width: 180
+        height: 346
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PersonajeSprite Final_51
+      rect:
+        serializedVersion: 2
+        x: 2473
+        y: 2475
+        width: 174
+        height: 345
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PersonajeSprite Final_52
+      rect:
+        serializedVersion: 2
+        x: 2677
+        y: 2472
+        width: 158
+        height: 348
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PersonajeSprite Final_53
+      rect:
+        serializedVersion: 2
+        x: 2886
+        y: 2468
+        width: 156
+        height: 352
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PersonajeSprite Final_54
+      rect:
+        serializedVersion: 2
+        x: 3083
+        y: 2467
+        width: 176
+        height: 351
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PersonajeSprite Final_55
+      rect:
+        serializedVersion: 2
+        x: 3291
+        y: 2467
+        width: 227
+        height: 351
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PersonajeSprite Final_56
+      rect:
+        serializedVersion: 2
+        x: 3536
+        y: 2467
+        width: 268
+        height: 348
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PersonajeSprite Final_57
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 2096
+        width: 230
+        height: 353
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PersonajeSprite Final_58
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 2099
+        width: 162
+        height: 350
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PersonajeSprite Final_59
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 2100
+        width: 158
+        height: 348
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PersonajeSprite Final_60
+      rect:
+        serializedVersion: 2
+        x: 790
+        y: 2101
+        width: 182
+        height: 346
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PersonajeSprite Final_61
+      rect:
+        serializedVersion: 2
+        x: 1036
+        y: 2101
+        width: 196
+        height: 346
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PersonajeSprite Final_62
+      rect:
+        serializedVersion: 2
+        x: 1302
+        y: 2101
+        width: 170
+        height: 347
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PersonajeSprite Final_63
+      rect:
+        serializedVersion: 2
+        x: 1537
+        y: 2102
+        width: 206
+        height: 343
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PersonajeSprite Final_64
+      rect:
+        serializedVersion: 2
+        x: 1785
+        y: 2104
+        width: 216
+        height: 340
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PersonajeSprite Final_65
+      rect:
+        serializedVersion: 2
+        x: 2035
+        y: 2106
+        width: 221
+        height: 336
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PersonajeSprite Final_66
+      rect:
+        serializedVersion: 2
+        x: 2289
+        y: 2107
+        width: 221
+        height: 333
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PersonajeSprite Final_67
+      rect:
+        serializedVersion: 2
+        x: 2535
+        y: 2107
+        width: 234
+        height: 334
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PersonajeSprite Final_68
+      rect:
+        serializedVersion: 2
+        x: 2816
+        y: 2098
+        width: 180
+        height: 351
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PersonajeSprite Final_69
+      rect:
+        serializedVersion: 2
+        x: 3037
+        y: 2108
+        width: 244
+        height: 332
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PersonajeSprite Final_70
+      rect:
+        serializedVersion: 2
+        x: 3328
+        y: 2101
+        width: 168
+        height: 345
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PersonajeSprite Final_71
+      rect:
+        serializedVersion: 2
+        x: 3570
+        y: 2111
+        width: 250
+        height: 326
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PersonajeSprite Final_72
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 1751
+        width: 244
+        height: 325
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PersonajeSprite Final_73
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 1756
+        width: 244
+        height: 317
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PersonajeSprite Final_74
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 1760
+        width: 252
+        height: 312
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PersonajeSprite Final_75
+      rect:
+        serializedVersion: 2
+        x: 828
+        y: 1761
+        width: 250
+        height: 311
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PersonajeSprite Final_76
+      rect:
+        serializedVersion: 2
+        x: 1104
+        y: 1764
+        width: 252
+        height: 307
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PersonajeSprite Final_77
+      rect:
+        serializedVersion: 2
+        x: 1377
+        y: 1767
+        width: 251
+        height: 305
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PersonajeSprite Final_78
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 1767
+        width: 252
+        height: 301
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PersonajeSprite Final_79
+      rect:
+        serializedVersion: 2
+        x: 1953
+        y: 1768
+        width: 256
+        height: 300
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PersonajeSprite Final_80
+      rect:
+        serializedVersion: 2
+        x: 2236
+        y: 1768
+        width: 260
+        height: 300
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PersonajeSprite Final_81
+      rect:
+        serializedVersion: 2
+        x: 2523
+        y: 1766
+        width: 265
+        height: 302
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PersonajeSprite Final_82
+      rect:
+        serializedVersion: 2
+        x: 2814
+        y: 1764
+        width: 267
+        height: 305
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PersonajeSprite Final_83
+      rect:
+        serializedVersion: 2
+        x: 3100
+        y: 1760
+        width: 303
+        height: 313
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PersonajeSprite Final_84
+      rect:
+        serializedVersion: 2
+        x: 3421
+        y: 1752
+        width: 332
+        height: 329
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PersonajeSprite Final_85
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 1387
+        width: 360
+        height: 348
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PersonajeSprite Final_86
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 1385
+        width: 382
+        height: 373
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PersonajeSprite Final_88
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 1380
+        width: 404
+        height: 387
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PersonajeSprite Final_90
+      rect:
+        serializedVersion: 2
+        x: 1206
+        y: 1364
+        width: 406
+        height: 401
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PersonajeSprite Final_95
+      rect:
+        serializedVersion: 2
+        x: 2035
+        y: 1360
+        width: 359
+        height: 402
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PersonajeSprite Final_98
+      rect:
+        serializedVersion: 2
+        x: 2416
+        y: 1351
+        width: 378
+        height: 405
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PersonajeSprite Final_101
+      rect:
+        serializedVersion: 2
+        x: 2812
+        y: 1351
+        width: 389
+        height: 403
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PersonajeSprite Final_103
+      rect:
+        serializedVersion: 2
+        x: 3224
+        y: 1349
+        width: 404
+        height: 348
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PersonajeSprite Final_105
+      rect:
+        serializedVersion: 2
+        x: 3647
+        y: 1375
+        width: 429
+        height: 324
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PersonajeSprite Final_108
+      rect:
+        serializedVersion: 2
+        x: 1623
+        y: 1369
+        width: 377
+        height: 398
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PersonajeSprite Final_134
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 1130
+        width: 449
+        height: 254
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PersonajeSprite Final_141
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 1086
+        width: 447
+        height: 285
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PersonajeSprite Final_147
+      rect:
+        serializedVersion: 2
+        x: 991
+        y: 1137
+        width: 434
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PersonajeSprite Final_148
+      rect:
+        serializedVersion: 2
+        x: 1464
+        y: 1140
+        width: 420
+        height: 219
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PersonajeSprite Final_149
+      rect:
+        serializedVersion: 2
+        x: 1916
+        y: 1144
+        width: 408
+        height: 206
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PersonajeSprite Final_150
+      rect:
+        serializedVersion: 2
+        x: 2349
+        y: 1145
+        width: 395
+        height: 190
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PersonajeSprite Final_151
+      rect:
+        serializedVersion: 2
+        x: 2772
+        y: 1139
+        width: 385
+        height: 174
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PersonajeSprite Final_152
+      rect:
+        serializedVersion: 2
+        x: 3185
+        y: 1152
+        width: 377
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PersonajeSprite Final_157
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 723
+        width: 268
+        height: 353
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PersonajeSprite Final_158
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 720
+        width: 268
+        height: 356
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PersonajeSprite Final_159
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 720
+        width: 268
+        height: 353
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PersonajeSprite Final_160
+      rect:
+        serializedVersion: 2
+        x: 883
+        y: 723
+        width: 269
+        height: 350
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PersonajeSprite Final_161
+      rect:
+        serializedVersion: 2
+        x: 1174
+        y: 722
+        width: 268
+        height: 351
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PersonajeSprite Final_162
+      rect:
+        serializedVersion: 2
+        x: 1451
+        y: 720
+        width: 269
+        height: 353
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PersonajeSprite Final_163
+      rect:
+        serializedVersion: 2
+        x: 1733
+        y: 720
+        width: 271
+        height: 353
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PersonajeSprite Final_164
+      rect:
+        serializedVersion: 2
+        x: 2022
+        y: 720
+        width: 270
+        height: 353
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PersonajeSprite Final_165
+      rect:
+        serializedVersion: 2
+        x: 2312
+        y: 722
+        width: 269
+        height: 351
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PersonajeSprite Final_166
+      rect:
+        serializedVersion: 2
+        x: 2593
+        y: 720
+        width: 269
+        height: 353
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PersonajeSprite Final_167
+      rect:
+        serializedVersion: 2
+        x: 2874
+        y: 723
+        width: 270
+        height: 350
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PersonajeSprite Final_168
+      rect:
+        serializedVersion: 2
+        x: 3155
+        y: 723
+        width: 270
+        height: 350
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PersonajeSprite Final_169
+      rect:
+        serializedVersion: 2
+        x: 3436
+        y: 723
+        width: 270
+        height: 350
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PersonajeSprite Final_170
+      rect:
+        serializedVersion: 2
+        x: 3717
+        y: 723
+        width: 271
+        height: 350
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PersonajeSprite Final_171
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 360
+        width: 270
+        height: 352
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PersonajeSprite Final_172
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 360
+        width: 271
+        height: 353
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PersonajeSprite Final_173
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 360
+        width: 270
+        height: 352
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PersonajeSprite Final_174
+      rect:
+        serializedVersion: 2
+        x: 886
+        y: 362
+        width: 270
+        height: 350
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PersonajeSprite Final_175
+      rect:
+        serializedVersion: 2
+        x: 1173
+        y: 360
+        width: 270
+        height: 352
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PersonajeSprite Final_176
+      rect:
+        serializedVersion: 2
+        x: 1453
+        y: 362
+        width: 269
+        height: 350
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PersonajeSprite Final_177
+      rect:
+        serializedVersion: 2
+        x: 1740
+        y: 362
+        width: 269
+        height: 350
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PersonajeSprite Final_178
+      rect:
+        serializedVersion: 2
+        x: 2027
+        y: 360
+        width: 269
+        height: 353
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PersonajeSprite Final_179
+      rect:
+        serializedVersion: 2
+        x: 2312
+        y: 362
+        width: 272
+        height: 351
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PersonajeSprite Final_180
+      rect:
+        serializedVersion: 2
+        x: 2597
+        y: 362
+        width: 271
+        height: 351
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PersonajeSprite Final_181
+      rect:
+        serializedVersion: 2
+        x: 2883
+        y: 360
+        width: 269
+        height: 353
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PersonajeSprite Final_182
+      rect:
+        serializedVersion: 2
+        x: 3170
+        y: 360
+        width: 270
+        height: 353
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PersonajeSprite Final_183
+      rect:
+        serializedVersion: 2
+        x: 3457
+        y: 362
+        width: 268
+        height: 351
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PersonajeSprite Final_184
+      rect:
+        serializedVersion: 2
+        x: 3744
+        y: 362
+        width: 268
+        height: 350
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PersonajeSprite Final_185
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 4
+        width: 269
+        height: 351
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PersonajeSprite Final_186
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 4
+        width: 268
+        height: 351
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PersonajeSprite Final_187
+      rect:
+        serializedVersion: 2
+        x: 618
+        y: 5
+        width: 270
+        height: 350
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
