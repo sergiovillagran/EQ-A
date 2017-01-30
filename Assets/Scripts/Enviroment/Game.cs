@@ -7,7 +7,7 @@ public class Game : MonoBehaviour {
     public GameObject HUD;
     public GameObject[] gameLevels;
 
-    public const string DEFAULT_GAME_SCENE = "playGame";
+    public const int DEFAULT_GAME_SCENE_INDEX = 0;
 
     public static string GAME_STATUS;
     public static MetaGameController menuController;
@@ -43,6 +43,12 @@ public class Game : MonoBehaviour {
     {
         HUD = Instantiate(HUD);
         HUD.transform.SetParent(gameObject.transform);
+
+        gameLevels[DEFAULT_GAME_SCENE_INDEX] = Instantiate(gameLevels[DEFAULT_GAME_SCENE_INDEX]);
+        gameLevels[DEFAULT_GAME_SCENE_INDEX].transform.SetParent(gameObject.transform);
+
+        menuController = null;
+
         GAME_STATUS = "IN_GAME";
     }
 
