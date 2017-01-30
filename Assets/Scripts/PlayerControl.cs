@@ -5,7 +5,7 @@ public class PlayerControl : MonoBehaviour
 {
 	[HideInInspector]
 	public bool facingRight = true;			// For determining which way the player is currently facing.
-	//[HideInInspector]
+	[HideInInspector]
 	public bool jump = false;				// Condition for whether the player should jump.
 
 
@@ -20,8 +20,9 @@ public class PlayerControl : MonoBehaviour
 
 	private int tauntIndex;					// The index of the taunts array indicating the most recent taunt.
 	private Transform groundCheck;			// A position marking where to check if the player is grounded.
-	public bool grounded = false;			// Whether or not the player is grounded.
+	private bool grounded = false;			// Whether or not the player is grounded.
 	private Animator anim;					// Reference to the player's animator component.
+	public float VerticalSpeed;             //Reference of the rigidbody's speed in component Y
 
 
 	void Awake()
@@ -35,17 +36,32 @@ public class PlayerControl : MonoBehaviour
 	void Update()
 	{
 		anim.SetBool("Ground",grounded);
+		anim.SetBool("Jump",jump);
 		// The player is grounded if a linecast to the groundcheck position hits anything on the ground layer.
 		grounded = Physics2D.Linecast(transform.position, groundCheck.position, 1 << LayerMask.NameToLayer("Ground"));  
 
 		// If the jump button is pressed and the player is grounded then the player should jump.
-		if(Input.GetButtonDown("Jump") && grounded)		
+		if(Input.GetButtonDown("Jump") && grounded)	{
 			jump = true;
+			int i = Random.Range(0, jumpClips.Length);
+			AudioSource.PlayClipAtPoint(jumpClips[i], transform.position);
+
+			// Add a vertical force to the player.
+			GetComponent<Rigidbody2D>().AddForce(new Vector2(0f, jumpForce));	
+
+			StartCoroutine(ChangeJump());
+		}
 	}
 
 
 	void FixedUpdate ()
 	{
+
+		//Vertical Speed of the player
+		VerticalSpeed = GetComponent<Rigidbody2D>().velocity.y;
+
+		anim.SetFloat("VerticalSpeed",VerticalSpeed);
+
 		// Cache the horizontal input.
 		float h = Input.GetAxis("Horizontal");
 
@@ -72,7 +88,7 @@ public class PlayerControl : MonoBehaviour
 			Flip();
 
 		// If the player should jump...
-		if(jump)
+		/*if(jump)
 		{
 			// Set the Jump animator trigger parameter.
 			//anim.SetTrigger("Jump");
@@ -85,9 +101,9 @@ public class PlayerControl : MonoBehaviour
 			GetComponent<Rigidbody2D>().AddForce(new Vector2(0f, jumpForce));
 
 			// Make sure the player can't jump again until the jump conditions from Update are satisfied.
-			if (grounded)
-			jump = false;
-		}
+//			if (grounded)
+//			jump = false;
+		}*/
 	}
 	
 	
@@ -138,5 +154,11 @@ public class PlayerControl : MonoBehaviour
 		else
 			// Otherwise return this index.
 			return i;
+	}
+
+	public IEnumerator ChangeJump()
+	{
+		yield return new WaitForSeconds(0.55f);
+		jump = false;
 	}
 }
