@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: 0dc92a8befa8d49449a7c479e7ebb183
-timeCreated: 1485659324
+timeCreated: 1485758558
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -101,10 +101,10 @@ TextureImporter:
       name: BG_SpriteSheet_0
       rect:
         serializedVersion: 2
-        x: 0
+        x: 5
         y: 2767
-        width: 1922
-        height: 654
+        width: 1911
+        height: 651
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -114,12 +114,12 @@ TextureImporter:
       name: BG_SpriteSheet_1
       rect:
         serializedVersion: 2
-        x: 0
-        y: 1665
-        width: 3326
-        height: 838
+        x: 7
+        y: 1666
+        width: 3314
+        height: 834
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -127,25 +127,25 @@ TextureImporter:
       name: BG_SpriteSheet_2
       rect:
         serializedVersion: 2
-        x: 0
-        y: 789
-        width: 3326
-        height: 855
+        x: 4
+        y: 790
+        width: 3317
+        height: 852
       alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 3, y: 0, z: 5, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
       name: BG_SpriteSheet_3
       rect:
         serializedVersion: 2
-        x: 1
+        x: 5
         y: 44
-        width: 3325
+        width: 3320
         height: 662
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0

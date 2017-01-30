@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: d9cb5bc593b32f74bb9a65030885bb77
-timeCreated: 1484926078
+timeCreated: 1485759057
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -81,15 +81,28 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
+      name: Buttons_0
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 221
+        width: 385
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
       name: Buttons_1
       rect:
         serializedVersion: 2
-        x: 26
-        y: 133
-        width: 432
-        height: 70
+        x: 29
+        y: 116
+        width: 429
+        height: 96
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -97,25 +110,12 @@ TextureImporter:
       name: Buttons_2
       rect:
         serializedVersion: 2
-        x: 117
-        y: 30
-        width: 250
-        height: 68
+        x: 132
+        y: 20
+        width: 221
+        height: 79
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Buttons_0
-      rect:
-        serializedVersion: 2
-        x: 28
-        y: 235
-        width: 426
-        height: 103
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
