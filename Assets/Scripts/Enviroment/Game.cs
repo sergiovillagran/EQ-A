@@ -3,35 +3,85 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class Game : MonoBehaviour {
-	GameObject splash;
-	GameObject menu;
-	GameObject scenario;
-	// Use this for initialization
+    public GameObject menu;
+    public GameObject HUD;
+    public GameObject[] gameLevels;
 
-	void Awake () {
-		//splash = Instantiate(Resources.Load("Splash")) as GameObject;
-		//splash.transform.SetParent (gameObject.transform); 
-		//splash.SetActive (false);
+    public const string DEFAULT_GAME_SCENE = "playGame";
 
-		menu = Instantiate(Resources.Load("MetaGame/MainMenu")) as GameObject;
-		menu.transform.SetParent (gameObject.transform);
-		//menu.SetActive (false);
+    public static string GAME_STATUS;
+    public static MetaGameController menuController;
+    private static List<GameComponent> controllers;
 
-		scenario = Instantiate(Resources.Load("Scenario")) as GameObject;
-		scenario.transform.SetParent (gameObject.transform);
-		scenario.SetActive (false);
-	}
+    
+    
+    void Awake()
+    {
+        controllers = new List<GameComponent>();
+        chargeMenu(gameObject);
+        sendMessage("awake");
+    }
 
 	void Start () {
-				
-	}
+        
+    }
 	
-	// Update is called once per frame
 	void Update () {
 		
 	}
 
-	public void timer (string function, float delayTime){
-		Invoke (function, delayTime);	
-	}
+    public void chargeMenu (GameObject game = null)
+    {
+        menu = Instantiate(menu);
+        menu.transform.SetParent(game.transform);
+        controllers.Add(new MetaGameController(menu, gameObject));
+
+        GAME_STATUS = "MAIN_MENU";
+    }
+
+    public void chargeGame (GameObject game = null)
+    {
+        HUD = Instantiate(HUD);
+        HUD.transform.SetParent(gameObject.transform);
+        GAME_STATUS = "IN_GAME";
+    }
+
+    private void sendMessage(string message)
+    {
+        switch (message)
+        {
+            case "awake":
+                {
+                    foreach (GameComponent go in controllers)
+                    {
+                        go.awake();
+                    }
+                    break;
+                }
+            case "start":
+                {
+                    foreach (GameComponent go in controllers)
+                    {
+                        go.start();
+                    }
+                    break;
+                }
+            case "destroy":
+                {
+                    foreach (GameComponent go in controllers)
+                    {
+                        go.destroy();
+                    }
+                    break;
+                }
+            case "update":
+                {
+                    foreach (GameComponent go in controllers)
+                    {
+                        go.update();
+                    }
+                    break;
+                }
+        }
+    }
 }
