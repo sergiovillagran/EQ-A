@@ -3,7 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public interface GameComponent {
-	void deployComponent();
-	void showComponent();
-	void hideComponent();
+	void start();
+	void update();
+	void awake();
+    void destroy();
 }

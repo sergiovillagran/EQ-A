@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Menu : GameComponent{
+public class Menu {
 
 	public Menu (GameObject [] options) {
 	
