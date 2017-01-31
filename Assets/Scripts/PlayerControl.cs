@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityEngine.UI;
 
 public class PlayerControl : MonoBehaviour
 {
@@ -25,6 +26,7 @@ public class PlayerControl : MonoBehaviour
 	private bool grounded = false;			// Whether or not the player is grounded.
 	private Animator anim;					// Reference to the player's animator component.
 	private float VerticalSpeed = 100;             //Reference of the rigidbody's speed in component Y
+	private Slider SlHealthBar;
 
 
 	void Awake()
@@ -32,12 +34,15 @@ public class PlayerControl : MonoBehaviour
 		// Setting up references.
 		groundCheck = transform.Find("groundCheck");
 		anim = GetComponent<Animator>();
-		health = 4;
+	}
+	void Start(){
+		SlHealthBar = GameObject.Find("Slider").GetComponent<Slider>();
 	}
 
 
 	void Update()
 	{
+		SlHealthBar.value = health;
 		anim.SetBool("Ground",grounded);
 		anim.SetBool("Jump",jump);
 		// The player is grounded if a linecast to the groundcheck position hits anything on the ground layer.
@@ -165,17 +170,44 @@ public class PlayerControl : MonoBehaviour
 			return i;
 	}
 
+	public void CalculateDamage(int EnterDamage){
+		health += EnterDamage;
+		Debug.Log (health);
+		if(health <=0)Die();
+		/*if (!isAlive ()) {
+			anim.SetTrigger("Die");
+		}*/
+	}
+	public void Die(){
+		anim.SetTrigger("Die");
+		StartCoroutine(DisableControlls());
+		//this.enabled = false;
+	}
+
+	public void Respawn(){
+
+		health = 100;
+
+		transform.position = GameObject.FindGameObjectWithTag("Respawn").transform.position; 
+
+		transform.rotation = GameObject.FindGameObjectWithTag("Respawn").transform.rotation;
+
+		this.enabled = true;
+	}
+
+	public IEnumerator DisableControlls()
+	{
+		yield return new WaitForSeconds(0.5f); 
+		this.enabled = false;
+		//Test Respawn
+		yield return new WaitForSeconds(1); 
+		Respawn();
+
+	}
+
 	public IEnumerator ChangeJump()
 	{
 		yield return new WaitForSeconds(0.55f);
 		jump = false;
-	}
-
-	public void CalculateDamage(int EnterDamage){
-		health += EnterDamage;
-		Debug.Log (health);
-		if (!isAlive ()) {
-			anim.SetTrigger("Die");
-		}
 	}
 }
