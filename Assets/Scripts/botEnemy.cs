@@ -15,6 +15,8 @@ public class botEnemy : MonoBehaviour {
 
     public void shootMissile ()
     {
-        Instantiate(Missile);
+        Vector3 missilePosition = Camera.main.transform.position - new Vector3(9, 1, 0);
+        missilePosition.z = 0;
+        Instantiate(Missile).transform.position = missilePosition;
     }
 }

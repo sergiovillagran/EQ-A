@@ -30,8 +30,10 @@ public class homingMissile : MonoBehaviour {
 
     void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.tag != "deadly")
+        if (other.tag != "NoMissile")
         {
+            if(other.tag == "Player")
+                target.GetComponent<PlayerControl>().CalculateDamage(-10);
             Destroy(this.gameObject, 0.02f);
         }
     }
