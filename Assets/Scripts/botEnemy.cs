@@ -17,6 +17,8 @@ public class botEnemy : MonoBehaviour {
     {
         Vector3 missilePosition = Camera.main.transform.position - new Vector3(9, 1, 0);
         missilePosition.z = 0;
-        Instantiate(Missile).transform.position = missilePosition;
+        GameObject missile = Instantiate(Missile);
+        missile.transform.SetParent(gameObject.transform);
+        missile.transform.position = missilePosition;
     }
 }

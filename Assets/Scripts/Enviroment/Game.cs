@@ -23,6 +23,7 @@ public class Game : MonoBehaviour {
     
     void Awake()
     {
+        menuCamera = GameObject.Find("MenuCamara");
         controllers = new List<GameComponent>();
         chargeMenu(gameObject);
         sendMessage("awake");
@@ -57,8 +58,8 @@ public class Game : MonoBehaviour {
         {
             levelGame = Instantiate(gameLevels[DEFAULT_GAME_SCENE_INDEX]);
             levelGame.transform.SetParent(gameObject.transform);
-            menuCamera = GameObject.Find("MenuCamara");
-            menuCamera.SetActive(true);
+            
+            menuCamera.SetActive(false);
 
             GameObject HUDGame = Instantiate(HUD);
             HUDGame.transform.SetParent(gameObject.transform);
