@@ -48,6 +48,9 @@ public class Game : MonoBehaviour {
         {
             gameLevels[DEFAULT_GAME_SCENE_INDEX] = Instantiate(gameLevels[DEFAULT_GAME_SCENE_INDEX]);
             gameLevels[DEFAULT_GAME_SCENE_INDEX].transform.SetParent(gameObject.transform);
+            Destroy(GameObject.Find("MenuCamara"));
+
+           // Destroy(transform.FindChild("MenuCamera"));
 
             HUD = Instantiate(HUD);
             HUD.transform.SetParent(gameObject.transform);
