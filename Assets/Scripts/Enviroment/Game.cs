@@ -6,6 +6,7 @@ using UnityEngine;
 public class Game : MonoBehaviour {
     public GameObject menu;
     public GameObject HUD;
+    public GameObject tutorial;
     public GameObject[] gameLevels;
 
     public const int DEFAULT_GAME_SCENE_INDEX = 0;
@@ -34,7 +35,8 @@ public class Game : MonoBehaviour {
     }
 	
 	void Update () {
-		
+        if (GAME_STATUS == "tuto")
+            menuCamera.SetActive(true);
 	}
 
     public void chargeMenu (GameObject game = null)
@@ -63,7 +65,7 @@ public class Game : MonoBehaviour {
 
             GameObject HUDGame = Instantiate(HUD);
             HUDGame.transform.SetParent(gameObject.transform);
-            controllers.Add(new HudController(HUDGame, gameObject));
+            controllers.Add(new HudController(HUDGame, gameObject, Instantiate(tutorial), menuCamera));
 
             if (GAME_STATUS != "IN_GAME")
             {
