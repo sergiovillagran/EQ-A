@@ -17,9 +17,9 @@ public class Elevator : MonoBehaviour {
 
 	private float StartPosition;
 
-	public float Timer = 0;
+	private float Timer = 0;
 
-	public bool ReachElevator = false;
+	private bool ReachElevator = false;
 
 	// Use this for initialization
 	void Start () {
@@ -36,13 +36,15 @@ public class Elevator : MonoBehaviour {
 	}
 	void OnTriggerEnter2D(Collider2D other){
 		if (other.tag == "Player" && !ReachElevator) {
+			StopAllCoroutines();
 			ReachElevator = true;
 			//Timer = 0;
 		}
 	}
 	void OnTriggerExit2D(Collider2D other){
 		if (other.tag == "Player" && ReachElevator) {
-			ReachElevator = false;
+			StartCoroutine(ChangeReach());
+			//ReachElevator = false;
 			//Timer = 1;
 		}
 	}
@@ -63,4 +65,11 @@ public class Elevator : MonoBehaviour {
 	}
 		
 }
+
+	public IEnumerator ChangeReach()
+	{
+		yield return new WaitForSeconds(2f); 
+		ReachElevator = false;
+
+	}
 }

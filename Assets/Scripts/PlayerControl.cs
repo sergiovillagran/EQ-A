@@ -27,6 +27,8 @@ public class PlayerControl : MonoBehaviour
 	private Animator anim;					// Reference to the player's animator component.
 	private float VerticalSpeed = 100;             //Reference of the rigidbody's speed in component Y
 	private Slider SlHealthBar;
+	private bool Controls = true;
+	private float h;
 
 
 	void Awake()
@@ -34,6 +36,7 @@ public class PlayerControl : MonoBehaviour
 		// Setting up references.
 		groundCheck = transform.Find("groundCheck");
 		anim = GetComponent<Animator>();
+		Flip();
 	}
 	void Start(){
 		SlHealthBar = GameObject.Find("Slider").GetComponent<Slider>();
@@ -49,7 +52,7 @@ public class PlayerControl : MonoBehaviour
 		grounded = Physics2D.Linecast(transform.position, groundCheck.position, 1 << LayerMask.NameToLayer("Ground"));  
 
 		// If the jump button is pressed and the player is grounded then the player should jump.
-		if(Input.GetButtonDown("Jump") && grounded)	{
+		if(Input.GetButtonDown("Jump") && grounded && Controls)	{
 			jump = true;
 			int i = Random.Range(0, jumpClips.Length);
 			AudioSource.PlayClipAtPoint(jumpClips[i], transform.position);
@@ -76,8 +79,9 @@ public class PlayerControl : MonoBehaviour
 
 		anim.SetFloat("VerticalSpeed",VerticalSpeed);
 
+		if(Controls){
 		// Cache the horizontal input.
-		float h = Input.GetAxis("Horizontal");
+			h = Input.GetAxis("Horizontal");}
 
 		// The Speed animator parameter is set to the absolute value of the horizontal input.
 		anim.SetFloat("Speed", Mathf.Abs(h));
@@ -180,24 +184,29 @@ public class PlayerControl : MonoBehaviour
 	}
 	public void Die(){
 		anim.SetTrigger("Die");
+		Controls = false;
 		StartCoroutine(DisableControlls());
 		//this.enabled = false;
 	}
 
 	public void Respawn(){
 
+		Transform respawntra = GameObject.FindGameObjectWithTag("Respawn").transform;
+		
+		transform.position = respawntra.position; 
+
+		transform.rotation = respawntra.rotation;
+
 		health = 100;
 
-		transform.position = GameObject.FindGameObjectWithTag("Respawn").transform.position; 
-
-		transform.rotation = GameObject.FindGameObjectWithTag("Respawn").transform.rotation;
+		Controls = true;
 
 		this.enabled = true;
 	}
 
 	public IEnumerator DisableControlls()
 	{
-		yield return new WaitForSeconds(0.5f); 
+		yield return new WaitForSeconds(0.4f); 
 		this.enabled = false;
 		//Test Respawn
 		yield return new WaitForSeconds(1); 
