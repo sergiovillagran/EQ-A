@@ -40,6 +40,6 @@ public class HudController : GameComponent{
 
     private void backToMainMenu()
     {
-        Debug.Log("Back to menu");
+		GameObject.FindGameObjectWithTag ("Player").GetComponent<PlayerControl>().CalculateDamage(-1);
     }
 }

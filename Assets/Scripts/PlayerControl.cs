@@ -16,13 +16,15 @@ public class PlayerControl : MonoBehaviour
 	public AudioClip[] taunts;				// Array of clips for when the player taunts.
 	public float tauntProbability = 50f;	// Chance of a taunt happening.
 	public float tauntDelay = 1f;			// Delay for when the taunt should happen.
+	//[HideInInspector]
+	public float health;
 
 
 	private int tauntIndex;					// The index of the taunts array indicating the most recent taunt.
 	private Transform groundCheck;			// A position marking where to check if the player is grounded.
 	private bool grounded = false;			// Whether or not the player is grounded.
 	private Animator anim;					// Reference to the player's animator component.
-	public float VerticalSpeed;             //Reference of the rigidbody's speed in component Y
+	private float VerticalSpeed = 100;             //Reference of the rigidbody's speed in component Y
 
 
 	void Awake()
@@ -30,6 +32,7 @@ public class PlayerControl : MonoBehaviour
 		// Setting up references.
 		groundCheck = transform.Find("groundCheck");
 		anim = GetComponent<Animator>();
+		health = 4;
 	}
 
 
@@ -53,6 +56,12 @@ public class PlayerControl : MonoBehaviour
 		}
 	}
 
+	public bool isAlive (){
+		if (health <= 0f) {
+			return false;
+		}
+		return true;
+	}
 
 	void FixedUpdate ()
 	{
@@ -160,5 +169,13 @@ public class PlayerControl : MonoBehaviour
 	{
 		yield return new WaitForSeconds(0.55f);
 		jump = false;
+	}
+
+	public void CalculateDamage(int EnterDamage){
+		health += EnterDamage;
+		Debug.Log (health);
+		if (!isAlive ()) {
+			anim.SetTrigger("Die");
+		}
 	}
 }
