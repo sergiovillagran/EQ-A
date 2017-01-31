@@ -25,7 +25,7 @@ public class HudController : GameComponent{
 
     public void destroy()
     {
-        throw new NotImplementedException();
+        GameObject.DestroyImmediate(HUD);
     }
 
     public void start()
@@ -40,6 +40,7 @@ public class HudController : GameComponent{
 
     private void backToMainMenu()
     {
-		GameObject.FindGameObjectWithTag ("Player").GetComponent<PlayerControl>().CalculateDamage(-1);
+        destroy();
+        game.GetComponent<Game>().chargeMenu();
     }
 }

@@ -16,6 +16,9 @@ public class Game : MonoBehaviour {
     public static MetaGameController menuController;
     private static List<GameComponent> controllers;
 
+    private GameObject menuCamera;
+    private GameObject levelGame;
+
     
     
     void Awake()
@@ -35,10 +38,16 @@ public class Game : MonoBehaviour {
 
     public void chargeMenu (GameObject game = null)
     {
-        menu = Instantiate(menu);
-        menu.transform.SetParent(game.transform);
-        controllers.Add(new MetaGameController(menu, gameObject));
+        GameObject gameMenu = Instantiate(menu);
+        gameMenu.transform.SetParent(gameObject.transform);
+        controllers.Add(new MetaGameController(gameMenu, gameObject));
 
+        if(GAME_STATUS == "IN_GAME")
+        {
+            menuCamera.SetActive(true);
+            DestroyImmediate(levelGame);
+            sendMessage("awake");
+        }
         GAME_STATUS = "MAIN_MENU";
     }
 
@@ -46,15 +55,14 @@ public class Game : MonoBehaviour {
     {
         try
         {
-            gameLevels[DEFAULT_GAME_SCENE_INDEX] = Instantiate(gameLevels[DEFAULT_GAME_SCENE_INDEX]);
-            gameLevels[DEFAULT_GAME_SCENE_INDEX].transform.SetParent(gameObject.transform);
-            Destroy(GameObject.Find("MenuCamara"));
+            levelGame = Instantiate(gameLevels[DEFAULT_GAME_SCENE_INDEX]);
+            levelGame.transform.SetParent(gameObject.transform);
+            menuCamera = GameObject.Find("MenuCamara");
+            menuCamera.SetActive(true);
 
-           // Destroy(transform.FindChild("MenuCamera"));
-
-            HUD = Instantiate(HUD);
-            HUD.transform.SetParent(gameObject.transform);
-            controllers.Add(new HudController(HUD, gameObject));
+            GameObject HUDGame = Instantiate(HUD);
+            HUDGame.transform.SetParent(gameObject.transform);
+            controllers.Add(new HudController(HUDGame, gameObject));
 
             if (GAME_STATUS != "IN_GAME")
             {
